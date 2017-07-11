@@ -139,7 +139,6 @@ public class ExplorerSpringScanner implements Scanner<ExplorerDefinition>, BeanD
             if (super.checkCandidate(beanName, beanDefinition)) {
                 return true;
             } else {
-                this.logger.warn("Skipping MapperFactoryBean with name \'" + beanName + "\' and \'" + beanDefinition.getBeanClassName() + "\' mapperInterface" + ". Bean already defined with the same name!");
                 return false;
             }
         }

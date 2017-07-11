@@ -13,6 +13,7 @@
         <module>cobwebs-protocols-netty</module>
         <module>cobwebs-serializers-protostuff</module>
         <module>cobwebs-spring-support</module>
+        <module>cobwebs-protocol-netty</module>
     </modules>
 
 
